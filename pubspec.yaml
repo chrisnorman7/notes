@@ -1,0 +1,29 @@
+name: notes
+description: "A quick and dirty note-taking application."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0-282.1.beta <4.0.0"
+
+dependencies:
+  backstreets_widgets: ^0.9.0
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.4.0
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
